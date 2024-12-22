@@ -1,5 +1,7 @@
 package blind75.linkedlist.reverseLinkedList;
 
+import java.util.Random;
+
 /**
  * @author karamanmert
  * @date 21.12.2024
