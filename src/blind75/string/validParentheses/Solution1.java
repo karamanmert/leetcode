@@ -34,9 +34,6 @@ public class Solution1 {
             return false;
         } else if (!Objects.equals(map.get('('), map.get(')'))) {
             return false;
-        } else if (!Objects.equals(map.get('['), map.get(']'))) {
-            return false;
-        } else
-            return true;
+        } else return Objects.equals(map.get('['), map.get(']'));
     }
 }
